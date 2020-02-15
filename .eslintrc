@@ -1,0 +1,19 @@
+{
+    "rules": {
+        "semi": ["error", "always"],
+        "quotes": ["error", "double"]
+    },
+    "extends": ["airbnb", "prettier","eslint:recommended"] ,
+    "plugins": [
+        "prettier",
+        "svelte3"
+    ],
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+      },
+      "globals": {
+        "DEBUG": false
+      }
+}

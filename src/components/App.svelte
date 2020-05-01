@@ -1,5 +1,5 @@
 <script>
-  import Character from "./Character.svelte";
+  import Characters from "./Characters.svelte";
   import { onMount } from "svelte";
 
   const API = "https://rickandmortyapi.com/api/character";
@@ -44,6 +44,6 @@
     type="text"
     name="search"
     bind:value={query}
-    on:change={onChangeInput} />
-  <Character {characters} />
+    on:keydown={onChangeInput} />
+  <Characters {characters} />
 </div>

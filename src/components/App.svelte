@@ -38,7 +38,7 @@
 
 <div class="wrapper">
   <h1>Rick and Morty</h1>
-  <label class="search-c">Character:</label>
+  <label for="search" class="search-c">Character:</label>
   <input
     class="search-c"
     type="text"
